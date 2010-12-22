@@ -1,6 +1,3 @@
-;; THIS MUST BE RUN TO ACTIVATE M-x bbdb
-(autoload 'bbdb-initialize            "bbdb" "" t)
-
 (autoload 'bbdb-insinuate-sendmail    "bbdb")
 
 (autoload 'bbdb                       "bbdb-com" "" t)
@@ -30,5 +27,9 @@
 ;; ./configure && make autoloads
 (unless (featurep 'bbdb-autoloads)
   (load "bbdb-autoloads" 'noerr))
+
+;; THIS MUST BE RUN TO ACTIVATE M-x bbdb
+(if (fboundp 'bbdb-initialize)
+    (bbdb-initialize 'rmail 'sendmail 'sendmail 'message))
 
 (provide 'bbdb-install)
