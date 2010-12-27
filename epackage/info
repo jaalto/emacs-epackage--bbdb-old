@@ -2,11 +2,12 @@ Package: bbdb
 Section: data
 License: GPL-2+
 Depends: emacs (>= 20)
-Status: core-xemacs unmaintained stable
+Status: core-xemacs stable unmaintained
 Compat:
 Maintainer: Jari Aalto <jari.aalto@cante.net>
-Email: Robert Widhop-Fenk <fenk@users.sourceforge.net>
-Bugs: http://sourceforge.net/tracker/?group_id=4236&atid=204236
+Bugs:
+Upstream: Robert Widhop-Fenk <fenk@users.sourceforge.net>
+Upstream-Bugs: http://sourceforge.net/tracker/?group_id=4236&atid=204236
 Vcs-Type: cvs
 Vcs-Url: :pserver:anonymous@bbdb.cvs.sourceforge.net:/cvsroot/bbdb
 Vcs-Args: bbdb
@@ -30,4 +31,5 @@ Description: The insidious Big Brother Database
  or posts by people, and easy lookup of addresses while composing
  messages.
  .
- Note 2010-11-27 the code hasn't been touched since 2008-03-16 (lisp/bbdb-com.el).
+ Note 2010-11-27 the code hasn't been touched since 2008-03-16
+ (lisp/bbdb-com.el).
