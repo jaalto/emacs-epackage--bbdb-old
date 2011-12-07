@@ -32,4 +32,4 @@
 (if (fboundp 'bbdb-initialize)
     (bbdb-initialize 'rmail 'sendmail 'sendmail 'message))
 
-(provide 'bbdb-install)
+(provide 'bbdb-epkg-install)

@@ -1,4 +1,4 @@
-(provide 'bbdb-autoloads)
+(provide 'bbdb-epkg-autoloads)
 (eval-when-compile
   (condition-case ()
       (require 'custom)

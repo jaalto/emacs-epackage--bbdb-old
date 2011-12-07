@@ -13,4 +13,4 @@
   (add-hook 'mail-setup-hook    'bbdb-define-all-aliases)
   (add-hook 'message-setup-hook 'bbdb-define-all-aliases))
 
-(provide 'bbdb-activate)
+(provide 'bbdb-epkg-activate)
